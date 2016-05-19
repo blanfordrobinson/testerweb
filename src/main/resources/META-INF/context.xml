@@ -10,7 +10,7 @@
 			driverClassName="com.mysql.jdbc.Driver"
 			url="jdbc:mysql://localhost:3306/usersDB"
 			username="root"
-			password="blanfy01"
+			password=""
 	/>
 	<Resource
 			name="jdbc/MailmanDS"
@@ -21,7 +21,7 @@
 			maxWait="10000"
 			driverClassName="oracle.jdbc.driver.OracleDriver"
 			url="jdbc:oracle:thin:@oradev:1521:otdlvy"
-			username="mailman"
-			password="g00dt1m3s"
+			username="root"
+			password=""
 	/>
 </Context>

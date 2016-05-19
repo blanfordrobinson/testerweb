@@ -22,10 +22,13 @@ import javax.sql.DataSource;
  * represents a JDBC connection.
  * @author www.codejava.net
  */
-@WebServlet("/listUsers")
+@WebServlet(urlPatterns = "/listUsers", loadOnStartup = 1)
 public class UsersListServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException,IOException{
+		doGet(request,response);
+	}
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter writer = response.getWriter();
