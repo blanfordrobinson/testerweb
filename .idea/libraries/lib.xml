@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/testerweb/WEB-INF/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/testerweb/WEB-INF/lib/xpp3_min-1.1.4c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/testerweb/WEB-INF/lib/ojdbc5-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/testerweb/WEB-INF/lib/xmlpull-1.1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/testerweb/WEB-INF/lib/guava-18.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/testerweb/WEB-INF/lib/xstream-1.4.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="testerweb:war exploded">
+    <output-path>$PROJECT_DIR$/target/testerweb</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="testerweb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:18.0" />
+          <element id="library" level="project" name="Maven: com.oracle.jdbc:ojdbc5:1.0" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.39" />
+          <element id="library" level="project" name="Maven: com.thoughtworks.xstream:xstream:1.4.9" />
+          <element id="library" level="project" name="Maven: xmlpull:xmlpull:1.1.3.1" />
+          <element id="library" level="project" name="Maven: xpp3:xpp3_min:1.1.4c" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/testerweb/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="testerweb/web/Web" />
+    </root>
+  </artifact>
+</component>
